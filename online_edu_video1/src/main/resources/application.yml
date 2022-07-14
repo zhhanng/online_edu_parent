@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: EDU-VIDEO
+  servlet:
+    # ?????????????1M
+    multipart.max-file-size: 1024MB
+    # ??????????? ???10M
+    multipart.max-request-size: 1024MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+#  instance:
+#    appname: EDU-VIDEO
+#    prefer-ip-address: true
+server:
+  port: 8002
+
+aliyun:
+  video:
+    ak: LTAI5tRSM1DWwECiYCG67EZ7
+    sk: gBypdFlTQTerYxXEe95yigBazR8jJU
